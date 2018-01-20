@@ -41,3 +41,9 @@ var document = [
     ]
   }
 ]
+
+function findObject (array,element,keyName) {
+  return array[element][keyName];
+}
+
+console.log(findObject(document,0,"children"));
